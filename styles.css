@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e3f8fe;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px 20px;
+}
+nav img {
+    width: 5rem;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding-right: 30px;
+}
+.seperator {
+    color: grey;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+.navbutton button {
+    border-radius: 80px;
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 7px 10px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-left: 20px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin: -30px 20px 20px 0;
+    text-wrap: left;
+  }
+  .hero-content img {
+    width: 40px;
+  }
+  .hero-content button {
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  .hero-image img {
+    width: 560px;
+    border-radius: 10px;
+  }
+
+  .horizontal-line {
+    border-top: 1px solid grey;
+    width: 1200px;
+    margin-left: 60px;
+    margin-bottom: 0;
+  }
+
+  .client-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 0;
+  }
+  
+  .client-logos img {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 60px;
+  }
+  
+  .White-background {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    text-align: center;      
+}
+
+.White-background button {
+    padding: 1px 5px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.5rem;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+.White-background img {
+    width: 1300px;
+    height: 500px;
+    margin-top: 20px; 
+    border-radius: 15px;
+}
